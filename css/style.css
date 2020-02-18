@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.header{
+    border: 2px solid dimgrey;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu li{
+    display: inherit;
+}
+.header-menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-menu a:hover{
+    background-color: #57708f;
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner{
+    color: white;
+    background-color: gray;
+}
+
+.banner .banner-hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner-textHero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.banner-imghero img{
+    border-radius: 5%;
+}
+.portafolio{
+    display: flex;
+    margin: 30px 0;
+}
+.portafolio-box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px gray;
+    border-radius: 5%;
+    width: 33%;
+}
+.portafolio-box img{
+    border-radius: 5%;
+}
+.portafolio-card{
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio-card button {
+    background-color: #57708f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px gray;
+    display: block;
+    margin: auto;
+}
+.title{
+    border-left: 6px solid #272727;
+    background-color: rgba(128,128,128,0.075);
+    padding: 5px;
+    text-align: center;
+}
+.experience{
+    display: flex;
+    margin: 30px 0;
+}
+.experience-box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px gray;
+    border-radius: 10px;
+    width: 50%;
+}
+.experience-body{
+    box-shadow: 0px -10px 10px 2px #80808059;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.experience-box img{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.footer{
+    color: white;
+    background-color: slategrey;
+}
+.footer .footer-sections{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+.footer-sections i{
+    padding: 10px;
+}
+.copyright p{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+
+
+
